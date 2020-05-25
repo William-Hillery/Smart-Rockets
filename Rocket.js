@@ -23,7 +23,7 @@ class Rocket {
     paths.strokeWeight(.2);
     paths.line(this.oldPos.x, this.oldPos.y, this.pos.x, this.pos.y);
     noStroke();
-    fill(this.won?color(100, 150, 255, 100):(!this.alive?color(255, 100, 100, 100):color(255, 100)));
+    fill(this.won?color(100, 150, 255, 200):(!this.alive?color(255, 100, 100, 200):color(255, 200)));
     push();
     translate(this.pos.x, this.pos.y);
     rotate(this.vel.heading());
