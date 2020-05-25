@@ -1,12 +1,12 @@
 let rockets = [];
 let borders = [];
-let popSize = 500;
+let popSize = 1000;
 let living = popSize;
 let winR = 10;
 let pendingPoint, start, end;
 let deleting = false;
 let generation = 1;
-let mr = 0.02;
+let mr = 0.015;
 let paths;
 let lastGenFrame = 0;
 
